@@ -1,5 +1,5 @@
 .SearchResults {
-  width: 50%;
+  width: 45%;
   height: 950px;
   overflow-y: scroll;
   padding: .88rem;
@@ -10,7 +10,7 @@
 .SearchResults h2 {
   display: flex;
   justify-content: center;
-  padding: 2.27rem 0 0.3rem 0;
+  padding: 0 0 0.3rem 0;
   border-bottom: 1px solid #6f6f6f;
 }
 
@@ -23,5 +23,9 @@
   .SearchResults {
     width: 40%;
     margin-bottom: 2rem;
+  }
+
+  .SearchResults h2 {
+    font-size: 1rem;
   }
 }

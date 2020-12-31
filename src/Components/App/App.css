@@ -9,6 +9,7 @@ html {
 }
 
 h1 {
+  margin: 0;
   padding: .77rem 0;
   background-color: #010c3f;
   text-align: center;
@@ -23,14 +24,14 @@ h1 .highlight {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.55rem;
+  font-size: 1.5rem;
 }
 
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
   background-image: url('./music-studio.jpg');
-  background-size: auto ;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: 'Work Sans', sans-serif;
@@ -40,13 +41,26 @@ h2 {
 
 .App-playlist {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
 @media only screen and (max-width: 1020px) {
+  .App {
+    padding: 0 2% 10% 2%;
+  }
+  
   .App-playlist {
     align-items: top;
     flex-direction: row;
+    justify-content: space-evenly;
   }
 }
+
+/* @media only screen and (max-width: 510px) {
+  .App-playlist {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+} */

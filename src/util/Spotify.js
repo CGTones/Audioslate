@@ -1,5 +1,5 @@
 const clientId = '9292dc64213a4ed58151523d8f69a063';
-const redirectUri = 'http://CGTones.github.io/Audioslate';
+const redirectUri = 'http://localhost:3000';
 
 let userAccessToken;
 
@@ -39,7 +39,7 @@ const Spotify = {
     // authorization header containing access token (lines 43-45)
   search(term) {
     const accessToken = Spotify.getAccessToken();
-    return fetch(`https://api.spotify.com/v1/search?type=track&q=${term}`, {
+    return fetch(`https://api.spotify.com/v1/search?type=track&limit=50&q=${term}`, {
       headers: {
         Authorization: `Bearer ${accessToken}`
       }
@@ -59,7 +59,8 @@ const Spotify = {
         name: track.name,
         artist: track.artists[0].name,
         album: track.album.name,
-        uri: track.uri
+        cover: track.album.images[2].url,
+        uri: track.uri,
       }));
     })
   },

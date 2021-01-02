@@ -1,5 +1,5 @@
 const clientId = '9292dc64213a4ed58151523d8f69a063';
-const redirectUri = 'http://localhost:3000';
+const redirectUri = 'http://CGTones.github.io/Audioslate';
 
 let userAccessToken;
 

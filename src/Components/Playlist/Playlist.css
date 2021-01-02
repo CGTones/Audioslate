@@ -5,18 +5,21 @@
   overflow-y: scroll;
   width: 45%;
   max-height: 950px;
-  padding: .88rem;
+  padding: .8rem;
   background-color: rgba(1, 12, 63, 0.7);
   box-shadow: 0 2px 2px 2px #000000;
 }
 
 .Playlist input {
-  width: 100%;
+  width: 80%;
+  text-align: center;
   border: 0;
+  border-radius: 54px;
   outline: 0;
   background: transparent;
-  padding: 1.2rem 0 0.3rem 0;
-  border-bottom: 1px solid #6f6f6f;
+  background-color: rgba(250, 87, 11, 0.3);
+  padding: .3rem 0 .3rem 0;
+  /* border-bottom: 1px solid #6f6f6f; */
   font-family: 'Poppins', sans-serif;
   font-size: 1.55rem;
   color: #fff;

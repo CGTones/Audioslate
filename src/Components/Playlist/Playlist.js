@@ -17,7 +17,7 @@ handleNameChange(e) {
   render() {
     return (
       <div className='Playlist'>
-        <input placeholder={'Enter a new playlist name'} defaultValue={'New Playlist'} onChange={this.handleNameChange} />
+        <input placeholder={'Enter a name'} defaultValue={'~New Playlist~'} onChange={this.handleNameChange} />
         <Tracklist 
           tracks={this.props.playlistTracks}
           onRemove={this.props.onRemove}

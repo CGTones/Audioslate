@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Audioslate/static/css/main.4b98f2ac.chunk.css",
-    "main.js": "/Audioslate/static/js/main.b72278a7.chunk.js",
-    "main.js.map": "/Audioslate/static/js/main.b72278a7.chunk.js.map",
+    "main.css": "/Audioslate/static/css/main.ca477ce0.chunk.css",
+    "main.js": "/Audioslate/static/js/main.7f92fe70.chunk.js",
+    "main.js.map": "/Audioslate/static/js/main.7f92fe70.chunk.js.map",
     "runtime-main.js": "/Audioslate/static/js/runtime-main.055cb59e.js",
     "runtime-main.js.map": "/Audioslate/static/js/runtime-main.055cb59e.js.map",
     "static/js/2.5af7f9da.chunk.js": "/Audioslate/static/js/2.5af7f9da.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.3def5274.chunk.js": "/Audioslate/static/js/3.3def5274.chunk.js",
     "static/js/3.3def5274.chunk.js.map": "/Audioslate/static/js/3.3def5274.chunk.js.map",
     "index.html": "/Audioslate/index.html",
-    "static/css/main.4b98f2ac.chunk.css.map": "/Audioslate/static/css/main.4b98f2ac.chunk.css.map",
+    "static/css/main.ca477ce0.chunk.css.map": "/Audioslate/static/css/main.ca477ce0.chunk.css.map",
     "static/js/2.5af7f9da.chunk.js.LICENSE.txt": "/Audioslate/static/js/2.5af7f9da.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Audioslate/static/media/music-studio.d7ddbcdd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.055cb59e.js",
     "static/js/2.5af7f9da.chunk.js",
-    "static/css/main.4b98f2ac.chunk.css",
-    "static/js/main.b72278a7.chunk.js"
+    "static/css/main.ca477ce0.chunk.css",
+    "static/js/main.7f92fe70.chunk.js"
   ]
 }
